@@ -1,0 +1,413 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4004d9d704cc00fb85dd873b778f5d7e",
+    "packages": [
+        {
+            "name": "briteweb/bw-skeleton-plugin",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BRITEWEB/bw-skeleton-plugin.git",
+                "reference": "7f30626e03f4998d1f7704eee30ce67979fb9cfa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BRITEWEB/bw-skeleton-plugin/zipball/7f30626e03f4998d1f7704eee30ce67979fb9cfa",
+                "reference": "7f30626e03f4998d1f7704eee30ce67979fb9cfa",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3",
+                "wpackagist-plugin/json-rest-api": "~1.1"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-0": {
+                    "BWSkeletonPlugin": "src/php"
+                }
+            },
+            "authors": [
+                {
+                    "name": "#BRITEWEB",
+                    "email": "support@briteweb.com",
+                    "homepage": "http://briteweb.com"
+                }
+            ],
+            "homepage": "https://github.com/briteweb/bw-skeleton-plugin",
+            "support": {
+                "source": "https://github.com/BRITEWEB/bw-skeleton-plugin/tree/1.0.0",
+                "issues": "https://github.com/BRITEWEB/bw-skeleton-plugin/issues"
+            },
+            "time": "2014-07-26 20:23:32"
+        },
+        {
+            "name": "briteweb/bw-skeleton-theme",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BRITEWEB/bw-skeleton-theme.git",
+                "reference": "df57395312b6f403efb40bee5b9939857140afe5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BRITEWEB/bw-skeleton-theme/zipball/df57395312b6f403efb40bee5b9939857140afe5",
+                "reference": "df57395312b6f403efb40bee5b9939857140afe5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "wordpress-theme",
+            "autoload": {
+                "psr-0": {
+                    "BWSkeletonTheme": "src/php"
+                }
+            },
+            "authors": [
+                {
+                    "name": "#BRITEWEB",
+                    "email": "support@briteweb.com",
+                    "homepage": "http://briteweb.com"
+                }
+            ],
+            "description": "bw-skeleton-theme",
+            "support": {
+                "source": "https://github.com/BRITEWEB/bw-skeleton-theme/tree/1.0.0",
+                "issues": "https://github.com/BRITEWEB/bw-skeleton-theme/issues"
+            },
+            "time": "2014-07-26 20:28:59"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.0.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "033679ad3cfc5ab759f9ed2a58881aeef13c342b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/033679ad3cfc5ab759f9ed2a58881aeef13c342b",
+                "reference": "033679ad3cfc5ab759f9ed2a58881aeef13c342b",
+                "shasum": ""
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2014-07-21 15:54:34"
+        },
+        {
+            "name": "johnpbloch/wordpress",
+            "version": "3.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress.git",
+                "reference": "33eb4b27e376e87b55e05388ac40a0bb5ee5a341"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/33eb4b27e376e87b55e05388ac40a0bb5ee5a341",
+                "reference": "33eb4b27e376e87b55e05388ac40a0bb5ee5a341",
+                "shasum": ""
+            },
+            "require": {
+                "johnpbloch/wordpress-core-installer": "~0.2",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-core",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms"
+            ],
+            "time": "2014-05-08 17:16:09"
+        },
+        {
+            "name": "johnpbloch/wordpress-core-installer",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+                "reference": "a4c08e91be99e858c7778c2f52a4d73820147c2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a4c08e91be99e858c7778c2f52a4d73820147c2e",
+                "reference": "a4c08e91be99e858c7778c2f52a4d73820147c2e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0"
+            },
+            "conflict": {
+                "composer/installers": "<1.0.6"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "johnpbloch\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John P. Bloch",
+                    "email": "me@johnpbloch.com"
+                }
+            ],
+            "description": "A custom installer to handle deploying WordPress with composer",
+            "time": "2013-09-09 15:04:54"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "4.3.8",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/advanced-custom-fields": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/ajax-thumbnail-rebuild",
+            "version": "1.12",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/ajax-thumbnail-rebuild/",
+                "reference": "tags/1.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/ajax-thumbnail-rebuild.1.12.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/ajax-thumbnail-rebuild": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/ajax-thumbnail-rebuild/"
+        },
+        {
+            "name": "wpackagist-plugin/json-rest-api",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/json-rest-api/",
+                "reference": "tags/1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/json-rest-api.1.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/json-rest-api": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/json-rest-api/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/wordpress-importer": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "1.5.4.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/1.5.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.1.5.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/wordpress-seo": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-super-cache",
+            "version": "1.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-super-cache/",
+                "reference": "tags/1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-super-cache.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/wp-super-cache": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/wp-super-cache/"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": [
+
+    ]
+}

@@ -37,11 +37,11 @@
 		},
         {
             "type": "vcs",
-            "url":  "https://github.com/briteweb/wp-skeleton-theme.git"
+            "url":  "git@github.com:BRITEWEB/bw-skeleton-plugin.git"
         },
         {
             "type": "vcs",
-            "url":  "https://github.com/briteweb/wp-skeleton-plugin.git"
+            "url":  "git@github.com:BRITEWEB/bw-skeleton-theme.git"
         }
 	],
 
@@ -51,8 +51,8 @@
 		"php": ">=5.3",
 
 		"johnpbloch/wordpress": "~3.8",
-		"briteweb/wp-skeleton-theme": "~1.0",
-		"briteweb/wp-skeleton-plugin": "~1.0",
+		"briteweb/bw-skeleton-theme": "~1.0",
+		"briteweb/bw-skeleton-plugin": "~1.0",
 
 		"wpackagist-plugin/wordpress-seo": "~1.5",
 		"wpackagist-plugin/advanced-custom-fields": "~4.3",
