@@ -1,0 +1,65 @@
+{
+	"name": "briteweb/bw-skeleton",
+	"homepage": "https://github.com/briteweb/bw-skeleton",
+	"version": "1.0.0",
+
+	"authors": [
+		{
+			"name": "#BRITEWEB",
+			"email": "support@briteweb.com",
+			"homepage": "http://briteweb.com"
+		}
+	],
+
+	"config": {
+		"process-timeout": 4000
+	},
+
+	"autoload": {
+		"psr-0": {
+			"BWSkeleton": "src/php"
+		}
+	},
+
+	"extra": {
+		"wordpress-install-dir": "wp",
+		"installer-paths": {
+			"content/plugins/": ["type:wordpress-plugin"],
+			"content/themes/": ["type:wordpress-theme"]
+		}
+	},
+
+
+	"repositories": [
+		{
+			"type":"composer",
+			"url":"http://wpackagist.org"
+		},
+        {
+            "type": "vcs",
+            "url":  "https://github.com/briteweb/wp-skeleton-theme.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/briteweb/wp-skeleton-plugin.git"
+        }
+	],
+
+
+	"require": {
+
+		"php": ">=5.3",
+
+		"johnpbloch/wordpress": "~3.8",
+		"briteweb/wp-skeleton-theme": "~1.0",
+		"briteweb/wp-skeleton-plugin": "~1.0",
+
+		"wpackagist-plugin/wordpress-seo": "~1.5",
+		"wpackagist-plugin/advanced-custom-fields": "~4.3",
+		"wpackagist-plugin/wordpress-importer": "~0.6",
+		"wpackagist-plugin/ajax-thumbnail-rebuild": "~1.09",
+		"wpackagist-plugin/wp-super-cache": "~1.4"
+
+	}
+
+}

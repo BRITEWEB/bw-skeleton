@@ -1,0 +1,22 @@
+* text=auto
+
+###################
+# Exclude files and folders from being copied during
+# capistrano deployments.
+###################
+#
+# Sample config files
+/wp-config-sample.php export-ignore
+/wp-cli-sample.yml export-ignore
+/.htaccess-sample export-ignore
+
+# Capistrano configs
+/config export-ignore
+/Capfile export-ignore
+
+# Development configs
+/.git export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/.jshintrc export-ignore
+/.editorconfig export-ignore

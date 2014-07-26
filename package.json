@@ -1,0 +1,48 @@
+{
+  "name": "bw-skeleton",
+  "version": "1.0.0",
+  "description": "BW Skeleton",
+  "main": "src/node/app.coffee",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briteweb/bw-skeleton.git"
+  },
+  "keywords": [],
+  "authors": [
+    "#BRITEWEB <support@briteweb.com>",
+    "Alessandro Biavati <abiavati@gmail.com>"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "backbone": "^1.1.2"
+  },
+  "dependencies": {},
+  "browser": {},
+  "browserify": {
+    "transform": [
+      "caching-coffeeify",
+      "hbsfy"
+    ]
+  },
+  "browserify-shim": {},
+  "testling": {
+    "browsers": [
+      "ie/8..11",
+      "firefox/3.5",
+      "firefox/latest",
+      "chrome/latest",
+      "safari/5..latest",
+      "opera/11",
+      "opera/next"
+    ],
+    "files": [
+      "./tests/scripts/*.test.coffee",
+      "./tests/scripts/*Test.coffee"
+    ]
+  }
+}

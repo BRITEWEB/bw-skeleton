@@ -1,0 +1,8 @@
+{
+	"watch": [ "src/node" ],
+	"ext": "js json coffee hbs jade html",
+	"ignore": [
+		".git",
+		"node_modules/**/node_modules"
+	]
+}
